@@ -1,6 +1,8 @@
 package com.mtuci.parking.controller;
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,8 +17,8 @@ import java.net.UnknownHostException;
 @CrossOrigin(origins = "*")
 public class AppController {
 
-    @GetMapping
-    public String getHostname() throws UnknownHostException {
-        return InetAddress.getLocalHost().getHostName();
+    @GetMapping()
+    public ResponseEntity<String> getHostname() throws UnknownHostException {
+        return new ResponseEntity<>(InetAddress.getLocalHost().getHostName(), HttpStatus.OK);
     }
 }
