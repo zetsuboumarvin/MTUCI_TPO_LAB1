@@ -41,6 +41,6 @@ curl -L -X POST 'localhost:8080/parking-places/search?size=5&page=0' \
 8. GET /reservation - возвращает все имеющиеся бронирования с поддержкой пагинации для пользователей с доступом "ADMIN" или бронирования, относящиеся к конкретному пользователю, при запросе с доступом "USER"(в текущей реализации захардкожен пользователь "USER"). `curl -L -X GET 'localhost:8080/reservation'` 
 9. GET /reservation/{id} - возвращает бронирование по его айди. `curl -L -X GET 'localhost:8080/reservation/1'`
 10. PUT /reservation/{id} - создаёт новое бронирование на парковочное место с указанным id, если оно занято - выдаст соответствующее исключение. `curl -L -X PUT 'localhost:8080/reservation/4'`
-11. DELETE /reservation/{id} - удаляет бронирование с переданным в параметре id, если бронирование принадлежит пользователю. `curl -L -X DELETE 'localhost:8080/reservation/4'`
+11. DELETE /reservation/{id} - удаляет бронирование с переданным в параметре id, если бронирование принадлежит пользователю. `curl -L -X DELETE 'localhost:8080/reservation/3'`
 #### Hostname
 12. GET /hostname - возвращает hostname. `curl -L -X GET 'localhost:8080/hostname'`
