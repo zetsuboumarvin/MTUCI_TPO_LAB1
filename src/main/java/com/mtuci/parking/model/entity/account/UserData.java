@@ -16,8 +16,7 @@ import javax.persistence.*;
 public class UserData {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "userGenerator")
-    @SequenceGenerator(name = "userGenerator")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
 
     @Column(nullable = false, unique = true)

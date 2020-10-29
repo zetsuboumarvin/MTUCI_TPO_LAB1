@@ -25,7 +25,7 @@ public class ReservationController {
         return reservationService.findAll(pageable);
     }
 
-    @PostMapping("/{id}")
+    @PutMapping("/{id}")
     public void save(@PathVariable Long id) {
         reservationService.save(id);
     }

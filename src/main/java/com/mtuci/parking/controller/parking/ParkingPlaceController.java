@@ -45,8 +45,8 @@ public class ParkingPlaceController {
         service.deleteById(id);
     }
 
-    @GetMapping("/search")
-    public Page<ParkingPlaceDto> search(ParkingPlaceSearchParams params, Pageable pageable) {
+    @PostMapping("/search")
+    public Page<ParkingPlaceDto> search(@RequestBody ParkingPlaceSearchParams params, Pageable pageable) {
         return service.search(params, pageable);
     }
 }

@@ -16,8 +16,7 @@ import javax.persistence.*;
 public class ParkingPlace {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "ppGenerator")
-    @SequenceGenerator(name = "ppGenerator")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
 
     String address;

@@ -7,28 +7,24 @@
 
     <changeSet author="admin" id="5">
         <insert tableName="parking_place">
-            <column name="id" valueNumeric="1"/>
             <column name="address" value="address1"/>
             <column name="zone" value="blue"/>
             <column name="floor" valueNumeric="1"/>
             <column name="for_disabled" valueBoolean="true"/>
         </insert>
         <insert tableName="parking_place">
-            <column name="id" valueNumeric="2"/>
             <column name="address" value="address2"/>
             <column name="zone" value="red"/>
             <column name="floor" valueNumeric="2"/>
             <column name="for_disabled" valueBoolean="false"/>
         </insert>
         <insert tableName="parking_place">
-            <column name="id" valueNumeric="3"/>
             <column name="address" value="address3"/>
             <column name="zone" value="blue"/>
             <column name="floor" valueNumeric="3"/>
             <column name="for_disabled" valueBoolean="false"/>
         </insert>
         <insert tableName="parking_place">
-            <column name="id" valueNumeric="4"/>
             <column name="address" value="address4"/>
             <column name="zone" value="red"/>
             <column name="floor" valueNumeric="4"/>

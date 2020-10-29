@@ -15,8 +15,7 @@ import java.time.LocalDateTime;
 public class Reservation {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "reservGenerator")
-    @SequenceGenerator(name = "reservGenerator")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
 
     @OneToOne(targetEntity = ParkingPlace.class)

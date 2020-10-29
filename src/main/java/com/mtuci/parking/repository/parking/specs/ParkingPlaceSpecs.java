@@ -12,6 +12,8 @@ public class ParkingPlaceSpecs {
 
     public static Specification<ParkingPlace> createSpecification(ParkingPlaceSearchParams params) {
         return (Specification<ParkingPlace>) (root, query, builder) -> {
+            System.out.println("ENTER LAMBDA SPECS");
+            System.out.println(params.toString());
             List<Predicate> list = new ArrayList<>();
             if (params.getId() != null) {
                 list.add(builder.equal(root.get("id"), params.getId()));

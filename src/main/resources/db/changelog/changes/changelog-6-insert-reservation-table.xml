@@ -7,13 +7,11 @@
 
     <changeSet author="admin" id="6">
         <insert tableName="reservation">
-            <column name="id" valueNumeric="1"/>
             <column name="parking_place_id" valueNumeric="1"/>
             <column name="user_id" valueNumeric="1"/>
             <column name="start_of_reservation" valueDate="2020-08-05T10:45:00"/>
         </insert>
         <insert tableName="reservation">
-            <column name="id" valueNumeric="2"/>
             <column name="parking_place_id" valueNumeric="2"/>
             <column name="user_id" valueNumeric="2"/>
             <column name="start_of_reservation" valueDate="2020-08-05T10:40:00"/>
