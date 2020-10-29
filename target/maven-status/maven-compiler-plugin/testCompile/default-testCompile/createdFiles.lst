@@ -1,0 +1,4 @@
+com\mtuci\parking\service\account\AccountServiceUnitTest.class
+com\mtuci\parking\ParkingApplicationTests.class
+com\mtuci\parking\service\parking\ReservationServiceUnitTest.class
+com\mtuci\parking\service\parking\ParkingPlaceServiceUnitTest.class

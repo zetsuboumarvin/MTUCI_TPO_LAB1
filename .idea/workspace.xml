@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="158b9f59-7e21-45d0-9959-e6c2e60d54fa" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1bX2qNWgG3b71IdofipDq1OYtrc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="h2&#10;postgresql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\МТУСИ\Обучение\1 семестр\ТРПО\parking\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.mtuci.parking.service.parking" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\МТУСИ\Обучение\1 семестр\ТРПО\parking\src\test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ParkingApplicationTests">
+    <configuration name="AccountServiceUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="parking" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mtuci.parking.service.account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="PACKAGE_NAME" value="com.mtuci.parking.service.account" />
+      <option name="MAIN_CLASS_NAME" value="com.mtuci.parking.service.account.AccountServiceUnitTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServiceUnitTest.getAccountInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="parking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mtuci.parking.service.account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mtuci.parking.service.account" />
+      <option name="MAIN_CLASS_NAME" value="com.mtuci.parking.service.account.AccountServiceUnitTest" />
+      <option name="METHOD_NAME" value="getAccountInfo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParkingApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="parking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mtuci.parking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mtuci.parking" />
+      <option name="MAIN_CLASS_NAME" value="com.mtuci.parking.ParkingApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReservationServiceUnitTest.deleteById_whenNotOwner_getNoException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="parking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mtuci.parking.service.parking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mtuci.parking.service.parking" />
+      <option name="MAIN_CLASS_NAME" value="com.mtuci.parking.service.parking.ReservationServiceUnitTest" />
+      <option name="METHOD_NAME" value="deleteById_whenNotOwner_getNoException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReservationServiceUnitTest.deleteById_whenNotOwner_getReservationNotFoundException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="parking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mtuci.parking.service.parking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mtuci.parking.service.parking" />
+      <option name="MAIN_CLASS_NAME" value="com.mtuci.parking.service.parking.ReservationServiceUnitTest" />
+      <option name="METHOD_NAME" value="deleteById_whenNotOwner_getReservationNotFoundException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParkingApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="parking" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mtuci.parking.ParkingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.AccountServiceUnitTest.getAccountInfo" />
+      <item itemvalue="JUnit.AccountServiceUnitTest" />
+      <item itemvalue="JUnit.ReservationServiceUnitTest.deleteById_whenNotOwner_getReservationNotFoundException" />
+      <item itemvalue="JUnit.ReservationServiceUnitTest.deleteById_whenNotOwner_getNoException" />
+      <item itemvalue="JUnit.ParkingApplicationTests" />
+      <item itemvalue="Spring Boot.ParkingApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ParkingApplicationTests" />
+        <item itemvalue="JUnit.AccountServiceUnitTest" />
+        <item itemvalue="JUnit.AccountServiceUnitTest.getAccountInfo" />
+        <item itemvalue="JUnit.ReservationServiceUnitTest.deleteById_whenNotOwner_getNoException" />
+        <item itemvalue="JUnit.ReservationServiceUnitTest.deleteById_whenNotOwner_getReservationNotFoundException" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="158b9f59-7e21-45d0-9959-e6c2e60d54fa" name="Default Changelist" comment="" />
+      <created>1588764307457</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588764307457</updated>
+      <workItem from="1603554051889" duration="1194000" />
+      <workItem from="1603696961154" duration="758000" />
+      <workItem from="1603698480763" duration="15000000" />
+      <workItem from="1603779042722" duration="19321000" />
+      <workItem from="1603866326663" duration="3756000" />
+      <workItem from="1603877530714" duration="14319000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="669" y="58" key="#Dockerfile" timestamp="1603880101498">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="669" y="58" key="#Dockerfile/0.0.1920.1040@0.0.1920.1040" timestamp="1603880101498" />
+    <state x="828" y="207" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603885752272">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="828" y="207" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603885752272" />
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1603723592667">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603723592667" />
+    <state x="743" y="389" width="434" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1603796158902">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="743" y="389" width="434" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1603796158902" />
+    <state x="557" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603895916107">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="557" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603895916107" />
+    <state x="740" y="221" key="FileChooserDialogImpl" timestamp="1603882426795">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="221" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603882426795" />
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1603901127510">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603901127510" />
+    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1603901127510">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603901127510" />
+    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1603901127510">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603901127510" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1603901127510">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603901127510" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1603814895704">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603814895704" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1603814895704">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603814895704" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1603814895703">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603814895703" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1603814895704">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603814895704" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1603883650530">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1603883650530" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1603883534278">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603883534278" />
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1603882680629">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603882680629" />
+    <state x="684" y="421" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603699379817">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="684" y="421" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603699379817" />
+    <state x="342" y="140" key="new project wizard" timestamp="1603882407872">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1603882407872" />
+  </component>
+</project>
