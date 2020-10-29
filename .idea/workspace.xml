@@ -15,7 +15,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="158b9f59-7e21-45d0-9959-e6c2e60d54fa" name="Default Changelist" comment="" />
+    <list default="true" id="158b9f59-7e21-45d0-9959-e6c2e60d54fa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +33,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -44,7 +51,7 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="1bX2qNWgG3b71IdofipDq1OYtrc" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -63,7 +70,7 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -219,6 +226,7 @@
       <workItem from="1603779042722" duration="19321000" />
       <workItem from="1603866326663" duration="3756000" />
       <workItem from="1603877530714" duration="14319000" />
+      <workItem from="1603960007205" duration="807000" />
     </task>
     <servers />
   </component>
@@ -258,10 +266,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="557" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603895916107" />
-    <state x="740" y="221" key="FileChooserDialogImpl" timestamp="1603882426795">
+    <state x="740" y="221" key="FileChooserDialogImpl" timestamp="1603960272522">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="221" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603882426795" />
+    <state x="740" y="221" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603960272522" />
+    <state x="838" y="418" key="Github.ShareDialog" timestamp="1603960249782">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="838" y="418" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603960249782" />
     <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1603901127510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -298,10 +310,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1603883650530" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1603883534278">
+    <state x="440" y="94" key="SettingsEditor" timestamp="1603960038997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603883534278" />
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603960038997" />
     <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1603882680629">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
