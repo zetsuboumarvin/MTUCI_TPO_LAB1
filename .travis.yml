@@ -6,3 +6,31 @@ services:
   - docker
 before_install:
   - chmod +x mvnw
+env:
+  global:
+      - secure: "Jmpfk2uTQXpd2jOXqV9f0oWhyyi7k0OjDz9fnr7idzx9N2XEPFn4lRgA6oZdftLk4K+w5rzjFFCY4tUN2rYDhGFPmRb8odrIStXOeOfghWiPzoY3CyUM3q9tJqKwgdnbuqaJ7/YPN5VSsuYa/viP7Zry1rd4D+WBBVLwBQ6aFaX/uTq3Z8kz3MnHkeMhTVG5TwSnIidXoO7Jy64JzVI3vDvHYkY+T
+                 cCLiGkKZ0tVskVgjjJ16bk5oCHNIVmtXy20Y8ZGk7BIGzfJ6WTkrJHljSzyqtjNQiEIsQJdyk1dYds8PlW3HOaMxOUBg8MFz9e/xzMDx34FmhzTxC3KlvL8V8J5jE1/xNuA8975PZqqLZg0SY1BSCA/+ot3bduO3sEtUCOwA82ZveePoRes0C96mY41v1QV0vZ3Kl5srNinrUaCTwlHSzaXH29bWE0XexhYg8QKL
+                 93requtuQQDDH+aVLwrX9rMhQ01AZyLl16O6C7mtNpVsTRP59v0Kv23+7XG0khkx2f3123VTGGxH4Updd6HjoSfC6PLbxy0PRQwweeVuoCznzgD9gxkhUebrBlYxuRuW72JD5ykzdlW/PfVvQAzEa4lAOAqt2LzlFeVODyUQnegvXm8lh2bFJ91lx/ml5NhYso/+9KhnRl0apSzUwwpfpslP6hxkozow/YhEcg="
+        - secure: "LDeG2oTCcSoowyQPx9vy36FBuZPF+IEJ+mw5grkWU6//cV24v3kTKfttkEzH0g5h78I8Bn+cURzHVGXmPaM1FHh8ARUEPsatPx9n36QdQzF/JO2CMEtNOPwNBr7DLFQl44aoc4vp907CpQpLU2gmKDOTwU20L3ePcEvKBoClik1wJp3I7NdxHjWBzjJRHuoVYni4mHTMmZK49/kvuGjC+4R1ds8Nb
+                   MVMDO9HQ8fJyVB4Q386bErfWc/IlPhjP4tt9hVGzeiYSw4/MvvMOu/EXz4/tZBMKtnexdsgCcVlrIOAwqa+KOMgBeVZgziE6hVjNUZlHBCstshhs9IqrcB0sWGtu0MdpiJSsX/n4OXuXTFIB4vKJSYPVOM4EZ1+0Lzp+Cd/ZurR/Nmesi99uoPS8BhHO/MXIbeCTTOBpo6Ni/lsyNqDDEjme8vNBMB3xGOdalFaa
+                   0r6KDbifC/bLBSWLEBPHrOc1nLjPRkFkyeLvZGuK2uOXG86iWB2dvdNLRZaMyqYqHSCU6s8xDfPPZ8tfEuIfo8pbMYbYQ1vT7FKB2WJovyP8dPi29PmnGqvorfq+rgk+CbX22Gi9peWb2AeLzS3FnE6ndv77rY7maz+B+tJcntuxkT8GQfkP1QHZo7SQCR6vIEBEkZyzuJsATqM+uQtJYXQSTTtH6Sc2vXCzh8="
+        - secure: "Gav9luEez3Akeyidhh95o0Zvu5xZV0D05FR9cU6r+R0X9Fm63PnGCpadfRf+/lMVadduXtrrb6sfneVmrhLsK9WH8fOLpL30OSz1+/zYt0WpwLO1VYXAv2gTJCGuM/3RKflME4kiCG+zZ3IIxAYIz+eJDHa6RUiqUI7SQ2d0K00NiMqTkyUGj3R9mQ69HQbMKfzjcwdLGzi+dMsM9e1KMH1ksJ65Z
+                   KkMa+148Fn40AUFerFsIXlkCbAbN5mZ7w2Wy04dmi9LHirg1CKuKzD0vwqzYvEqVPN5svzGV2hprd4lcCVEEXg6vJHfIdhNzjprsXe8sYU6kFvXKIugpsZjWZwFvC1wTqw06VKzT1zl99swnYcgreJnUKedYHaRzSmObmLlLpYIBQG4bCyqi9dMQMJK8sITDObgM+y+HJQASbccObXaW89C5D4cYcJIhUIbhNTjy
+                   NTY9phuEqaEupK4un0D6xmjasRP365mR/xwsiTpCbSKzG1+BgT5+ueyllInGduwgzM7EyFfntpU4urI7bLIuaDJeo0gZc6FrWqhbU6Pk7LLJWHpT+XFGCiGCkueoWcy+3+C/GJJEB3tJvUNzvIjm78T6I1nx44lTKMWiYbKRAe6uQCai+DCSrqFQGLIZNg1LPNZ60JyUS9YTogL5tIsSU3i7Q89nVjxmBphbvg="
+        - COMMIT=${TRAVIS_COMMIT::7}
+
+script:
+  - ./mvnw clean install -B
+
+after_success:
+  - docker login -u $DOCKER_USER -p $DOCKER_PASS
+  - export TAG=`if [ "$TRAVIS_BRANCH" == "master" ]; then echo "latest"; else echo "$TRAVIS_BRANCH"; fi`
+  - export IMAGE_NAME=parking/repo
+  - docker build -t $IMAGE_NAME:latest .
+  - docker tag $IMAGE_NAME:latest $IMAGE_NAME:$TAG
+  - docker push $IMAGE_NAME:$TAG
+
+deploy:
+  provider: heroku
+  api_key: $HEROKU_API_KEY
+  app: parking

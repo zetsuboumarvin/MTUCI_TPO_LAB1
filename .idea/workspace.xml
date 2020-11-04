@@ -6,17 +6,20 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="158b9f59-7e21-45d0-9959-e6c2e60d54fa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/05a10eb3-9299-48bb-ab26-933176d2089b.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/05a10eb3-9299-48bb-ab26-933176d2089b/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/05a10eb3-9299-48bb-ab26-933176d2089b/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/05a10eb3-9299-48bb-ab26-933176d2089b/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/05a10eb3-9299-48bb-ab26-933176d2089b/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -232,7 +235,8 @@
       <workItem from="1603994659257" duration="1198000" />
       <workItem from="1604090273776" duration="36000" />
       <workItem from="1604137300879" duration="1837000" />
-      <workItem from="1604479575346" duration="671000" />
+      <workItem from="1604479575346" duration="4490000" />
+      <workItem from="1604489120712" duration="323000" />
     </task>
     <servers />
   </component>
@@ -256,10 +260,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="58" key="#Dockerfile/0.0.1920.1040@0.0.1920.1040" timestamp="1603880101498" />
-    <state x="828" y="207" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603885752272">
+    <state x="828" y="207" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604486586046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="828" y="207" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603885752272" />
+    <state x="828" y="207" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604486586046" />
     <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1603723592667">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

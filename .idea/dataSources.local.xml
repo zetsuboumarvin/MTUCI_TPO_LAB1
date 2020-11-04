@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="PostgreSQL - postgres@localhost" uuid="05a10eb3-9299-48bb-ab26-933176d2089b">
-      <database-info product="PostgreSQL" version="13.0 (Debian 13.0-1.pgdg100+1)" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.5" dbms="POSTGRES" exact-version="13.0" exact-driver-version="42.2">
+    <data-source name="db7f0vcmg8mgvo@ec2-52-213-173-172.eu-west-1.compute.amazonaws.com" uuid="4bcc2de3-e576-4ea4-b1ce-8cefb3e18a12">
+      <database-info product="PostgreSQL" version="12.4 (Ubuntu 12.4-1.pgdg16.04+1)" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.5" dbms="POSTGRES" exact-version="12.4" exact-driver-version="42.2">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
-      <user-name>postgres</user-name>
+      <user-name>brnjavvlnpijxn</user-name>
       <schema-mapping>
         <introspection-scope>
           <node kind="database" qname="@">
