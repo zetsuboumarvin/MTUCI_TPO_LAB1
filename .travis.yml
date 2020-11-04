@@ -4,3 +4,5 @@ language: java
 services:
   - postgresql
   - docker
+before_install:
+  - chmod +x mvnw
