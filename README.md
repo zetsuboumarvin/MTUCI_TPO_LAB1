@@ -48,4 +48,5 @@ curl -L -X POST 'localhost:8080/parking-places/search?size=5&page=0' \
 
 ## Лабораторная работа №3: CI/CD и деплой приложения в Heroku
 #### Цель лабораторной работы - настройка CI на Travis и автоматический деплой микросервиса в Heroku.
-Приложение в [Heroku](https://mtuci.herokuapp.com/)
+Приложение в [Heroku](https://mtuci.herokuapp.com/).  
+Статус ![](https://travis-ci.org/zetsuboumarvin/MTUCI_TRPO_LAB1.svg?branch=master)
