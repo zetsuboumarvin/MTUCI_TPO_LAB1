@@ -44,3 +44,9 @@ curl -L -X POST 'localhost:8080/parking-places/search?size=5&page=0' \
 11. DELETE /reservation/{id} - удаляет бронирование с переданным в параметре id, если бронирование принадлежит пользователю. `curl -L -X DELETE 'localhost:8080/reservation/3'`
 #### Hostname
 12. GET /hostname - возвращает hostname. `curl -L -X GET 'localhost:8080/hostname'`
+
+
+## Лабораторная работа №3: CI/CD и деплой приложения в Heroku
+#### Цель лабораторной работы - настройка CI на Travis и автоматический деплой микросервиса в Heroku.
+Приложение в [Heroku](https://mtuci.herokuapp.com/).  
+Статус ![](https://travis-ci.org/zetsuboumarvin/MTUCI_TRPO_LAB1.svg?branch=master)
