@@ -50,3 +50,4 @@ curl -L -X POST 'localhost:8080/parking-places/search?size=5&page=0' \
 #### Цель лабораторной работы - настройка CI на Travis и автоматический деплой микросервиса в Heroku.
 Приложение в [Heroku](https://mtuci.herokuapp.com/).  
 Статус ![](https://travis-ci.org/zetsuboumarvin/MTUCI_TRPO_LAB1.svg?branch=master)
+[SonarCloud](https://sonarcloud.io/organizations/zetsuboumarvin-parking/projects)
