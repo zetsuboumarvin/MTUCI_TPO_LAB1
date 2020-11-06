@@ -11,23 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="158b9f59-7e21-45d0-9959-e6c2e60d54fa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parking.iml" beforeDir="false" afterPath="$PROJECT_DIR$/parking.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/controller/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/controller/AppController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/controller/account/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/controller/account/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/controller/parking/ParkingPlaceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/controller/parking/ParkingPlaceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/exception/handler/RestResponseEntityExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/model/dto/parking/ReservationDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/model/dto/parking/ReservationDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/model/entity/parking/ParkingPlace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/model/entity/parking/ParkingPlace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/model/mapper/ReservationMapperImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/model/mapper/ReservationMapperImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/repository/parking/specs/ParkingPlaceSpecs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/repository/parking/specs/ParkingPlaceSpecs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/service/parking/ParkingPlaceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/service/parking/ParkingPlaceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/service/parking/ParkingPlaceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/service/parking/ParkingPlaceServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mtuci/parking/ParkingApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mtuci/parking/ParkingApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mtuci/parking/service/account/AccountServiceUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mtuci/parking/service/account/AccountServiceUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mtuci/parking/service/parking/ParkingPlaceServiceUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mtuci/parking/service/parking/ParkingPlaceServiceUnitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +230,7 @@
       <workItem from="1604479575346" duration="4490000" />
       <workItem from="1604489120712" duration="6541000" />
       <workItem from="1604561290810" duration="28748000" />
-      <workItem from="1604642193858" duration="11048000" />
+      <workItem from="1604642193858" duration="12102000" />
     </task>
     <servers />
   </component>
@@ -336,10 +322,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="776" y="298" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604597775388" />
-    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1603967117440">
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1604659179474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603967117440" />
+    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604659179474" />
     <state x="684" y="421" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603699379817">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

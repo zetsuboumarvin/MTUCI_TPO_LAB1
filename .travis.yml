@@ -1,11 +1,20 @@
 dist:  trusty
 jdk: openjdk11
 language: java
+
 services:
   - postgresql
   - docker
+  -
 before_install:
   - chmod +x mvnw
+
+addons:
+  sonarcloud:
+    organization: "zetsuboumarvin-parking"
+    token:
+      secure: $SONAR_TOKEN
+
 env:
   global:
       - secure: "Jmpfk2uTQXpd2jOXqV9f0oWhyyi7k0OjDz9fnr7idzx9N2XEPFn4lRgA6oZdftLk4K+w5rzjFFCY4tUN2rYDhGFPmRb8odrIStXOeOfghWiPzoY3CyUM3q9tJqKwgdnbuqaJ7/YPN5VSsuYa/viP7Zry1rd4D+WBBVLwBQ6aFaX/uTq3Z8kz3MnHkeMhTVG5TwSnIidXoO7Jy64JzVI3vDvHYkY+T
@@ -17,10 +26,14 @@ env:
       - secure: "g6tSWzW3Cxsn0SsorZQDvtR3oyU9r+dP8mzrzzn2U4mENHx/iPScgXqFxuvSwPyu2FuhNgbsDIFv0zlZqlyvRw0bs57P5qJPoFW8FYElxmMSclE+X1u2UtMuKBzjqPuYJRuLQWLGecEJdV3Tk/52MDBGZ4I6LxK27Xeaiq2nwhGlz9vHfOPlifOF4uguWDSGzwZ1yN3xvCFJci3vA20E3hOVuPIjK
                  eiVWoIzvLr+US5Leb3zNVxUx4LXdxSfCY0FxtLFGpeczw26KSuS656mRQdYmjdJ7a+wb/XlpVgw6KZFiaCrVpedmK7DOCfEt9ButV1sKX2+0WPasRLRHPrxJjKf2dDke5IobbkHQaSCviQRIN0bg34V8r/rVUhOyps+jUftTpka4S74d9TRDLN4BYHw8MCcVkH+Yb7/htQdotiQPmSH2Q/q/pi08PHT0qYDKLsWh
                  nl1jo7gDuWGjvSvYPM173sm9Ws6SQPk0/FE03F7LVGUvs5QSPV5pslKbuvOJTbeT4Cyahbfi/vM3kE9k0N8STE5gQwK8CMPf1IG8kSL9/V1yFntjcXfpZ7xBmmdqbNkF9VaC8Pm8RDBTgsoddldKngRgksZHp6ApinnkpIARzYdn55kKetHq2+0IC4/WQYA2v3dDS1uYFIofgSqDXZCeJLQ/2BSppMoosI4zTc="
+      - secure: "EI0GH2R1fC7tMUUJE2MaQsqzVmnebFnviOHIyQ3yio6Fz7bs26kyBYjq+cG/P1OfdPhWtwN1WogVKnMUsRSos00KigeQVrKZ09Ad7PoCkR0qCpidcH2DI0aIXa0wnAqZOOthoVQaeVXsdxerf7sjaixc12l2fZWGoFEmdrAtsKZm4G7bj+lDSg8rRHo2mN+YnnAM9QsWwCtg8SKhA9l9E39dg26MC
+                 buaHYDiPqQB2K3jKsGpzWFzLfiUiBVXIRAHUjNUVi2/f7l/PE8W8F08CELybwi+olXAMD/ElDdZCjGXLQgT9HAik4iPIZUF/lxQfR+kuh73uxHbI1KX8blDx59hmkrMDrMJS5E1HUHGV3W2V/uChUE3E+F00eTtfP84btL+p7uVNhlXKI7zmWXrrCcZcK/N0RGs8pPQx/cF9mVcZnxnFdgw93zqnka1cZ+xRotZd
+                 1iRLF/ddxK4Gg8OvACJZz6YJ81jqkNzs4+ak4umiF7NVwO/4uX5k9h/QQVMoXYs1pZYTNNH10hMu8Rvjwcaf0/bdrj5eDe0HdreHEYmTyBbF/K+ddCjslDTdFaeGbEg7U0y09GIt0ExP2r32++rB5l2EVoe87Vf3lVu81Fo0xI18dDMiLpkaU59ceAORQ4wqGyQhWV6uSUF9JWqRNqNM4wl5b7mzDIJlq6bjpY="
       - COMMIT=${TRAVIS_COMMIT::7}
 
 script:
   - ./mvnw clean install -B
+  - ./mvnw clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar
 
 after_success:
   - docker login -u $DOCKER_USER -p $DOCKER_PASS
