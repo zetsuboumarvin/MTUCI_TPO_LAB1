@@ -4,6 +4,7 @@ import com.mtuci.parking.model.entity.account.UserData;
 import com.mtuci.parking.model.entity.parking.Reservation;
 import com.mtuci.parking.repository.account.UserDataRepository;
 import com.mtuci.parking.repository.parking.ReservationRepository;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -37,12 +38,12 @@ public class AccountServiceUnitTest {
 
     @Test
     public void getAccountInfo() {
-        assert accountService.getAccountInfo() != null;
+        Assertions.assertNotNull(accountService.getAccountInfo());
     }
 
     @Test
     public void getAccountId() {
-        assert accountService.getAccountId() != null;
+        Assertions.assertNotNull(accountService.getAccountId());
     }
 
 }

@@ -1,7 +1,6 @@
 package com.mtuci.parking.controller.parking;
 
 import com.mtuci.parking.model.dto.parking.ParkingPlaceDto;
-import com.mtuci.parking.model.entity.parking.ParkingPlace;
 import com.mtuci.parking.service.parking.ParkingPlaceService;
 import com.mtuci.parking.model.dto.parking.ParkingPlaceSearchParams;
 import lombok.RequiredArgsConstructor;
@@ -30,12 +29,12 @@ public class ParkingPlaceController {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    public void save(@RequestBody ParkingPlace place) {
+    public void save(@RequestBody ParkingPlaceDto place) {
         service.save(place);
     }
 
     @PatchMapping("/{id}")
-    public void change(@PathVariable Long id, @RequestBody ParkingPlace place) {
+    public void change(@PathVariable Long id, @RequestBody ParkingPlaceDto place) {
         service.change(id, place);
     }
 

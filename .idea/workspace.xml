@@ -11,16 +11,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="158b9f59-7e21-45d0-9959-e6c2e60d54fa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/05a10eb3-9299-48bb-ab26-933176d2089b.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/05a10eb3-9299-48bb-ab26-933176d2089b/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/05a10eb3-9299-48bb-ab26-933176d2089b/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/05a10eb3-9299-48bb-ab26-933176d2089b/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/05a10eb3-9299-48bb-ab26-933176d2089b/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking.iml" beforeDir="false" afterPath="$PROJECT_DIR$/parking.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/controller/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/controller/AppController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/controller/account/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/controller/account/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/controller/parking/ParkingPlaceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/controller/parking/ParkingPlaceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/exception/handler/RestResponseEntityExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/model/dto/parking/ReservationDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/model/dto/parking/ReservationDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/model/entity/parking/ParkingPlace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/model/entity/parking/ParkingPlace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/model/mapper/ReservationMapperImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/model/mapper/ReservationMapperImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/repository/parking/specs/ParkingPlaceSpecs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/repository/parking/specs/ParkingPlaceSpecs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/service/parking/ParkingPlaceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/service/parking/ParkingPlaceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/service/parking/ParkingPlaceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mtuci/parking/service/parking/ParkingPlaceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mtuci/parking/ParkingApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mtuci/parking/ParkingApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mtuci/parking/service/account/AccountServiceUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mtuci/parking/service/account/AccountServiceUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mtuci/parking/service/parking/ParkingPlaceServiceUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mtuci/parking/service/parking/ParkingPlaceServiceUnitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -50,9 +57,6 @@
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
-  </component>
-  <component name="MavenRunner">
-    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="1bX2qNWgG3b71IdofipDq1OYtrc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -74,7 +78,8 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/WORK/VTB24/Widget EMBP/biometrics-embp" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/com/mtuci/parking/controller" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -88,15 +93,20 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.mtuci.parking.service.parking" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Documents\МТУСИ\Обучение\1 семестр\ТРПО\parking\src\main\resources\db\changelog\changes" />
-      <recent name="D:\Documents\МТУСИ\Обучение\1 семестр\ТРПО\parking\src\test" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Documents\МТУСИ\Обучение\1 семестр\ТРПО\parking\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.mtuci.parking.controller.account" />
+      <recent name="com.mtuci.parking.service.parking" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.mtuci.parking.repository.parking.specs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\МТУСИ\Обучение\1 семестр\ТРПО\parking" />
+      <recent name="D:\Documents\МТУСИ\Обучение\1 семестр\ТРПО\parking\src\main\resources\db\changelog\changes" />
+      <recent name="D:\Documents\МТУСИ\Обучение\1 семестр\ТРПО\parking\src\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -106,85 +116,81 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ParkingApplicationTests">
-    <configuration name="AccountServiceUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="parking" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mtuci.parking.service.account.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="PACKAGE_NAME" value="com.mtuci.parking.service.account" />
-      <option name="MAIN_CLASS_NAME" value="com.mtuci.parking.service.account.AccountServiceUnitTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountServiceUnitTest.getAccountInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ReservationMapperUnitTest">
+    <configuration name="ParkingPlaceMapperUnitTest.convertParkingPlaceToDto_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="parking" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mtuci.parking.service.account.*" />
+          <option name="PATTERN" value="com.mtuci.parking.model.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mtuci.parking.service.account" />
-      <option name="MAIN_CLASS_NAME" value="com.mtuci.parking.service.account.AccountServiceUnitTest" />
-      <option name="METHOD_NAME" value="getAccountInfo" />
+      <option name="PACKAGE_NAME" value="com.mtuci.parking.model.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.mtuci.parking.model.mapper.ParkingPlaceMapperUnitTest" />
+      <option name="METHOD_NAME" value="convertParkingPlaceToDto_test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParkingApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParkingPlaceSpecsUnitTest.conditions_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="parking" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mtuci.parking.*" />
+          <option name="PATTERN" value="com.mtuci.parking.repository.parking.specs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mtuci.parking" />
-      <option name="MAIN_CLASS_NAME" value="com.mtuci.parking.ParkingApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReservationServiceUnitTest.deleteById_whenNotOwner_getNoException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="parking" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mtuci.parking.service.parking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mtuci.parking.service.parking" />
-      <option name="MAIN_CLASS_NAME" value="com.mtuci.parking.service.parking.ReservationServiceUnitTest" />
-      <option name="METHOD_NAME" value="deleteById_whenNotOwner_getNoException" />
+      <option name="PACKAGE_NAME" value="com.mtuci.parking.repository.parking.specs" />
+      <option name="MAIN_CLASS_NAME" value="com.mtuci.parking.repository.parking.specs.ParkingPlaceSpecsUnitTest" />
+      <option name="METHOD_NAME" value="conditions_test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReservationServiceUnitTest.deleteById_whenNotOwner_getReservationNotFoundException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReservationMapperUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="parking" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mtuci.parking.service.parking.*" />
+          <option name="PATTERN" value="com.mtuci.parking.model.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mtuci.parking.service.parking" />
-      <option name="MAIN_CLASS_NAME" value="com.mtuci.parking.service.parking.ReservationServiceUnitTest" />
-      <option name="METHOD_NAME" value="deleteById_whenNotOwner_getReservationNotFoundException" />
+      <option name="PACKAGE_NAME" value="com.mtuci.parking.model.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.mtuci.parking.model.mapper.ReservationMapperUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReservationMapperUnitTest.convertReservationToDto_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="parking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mtuci.parking.model.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mtuci.parking.model.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.mtuci.parking.model.mapper.ReservationMapperUnitTest" />
+      <option name="METHOD_NAME" value="convertReservationToDto_test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsernameNotFoundExceptionTest.usernameNotFoundExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="parking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mtuci.parking.exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mtuci.parking.exception" />
+      <option name="MAIN_CLASS_NAME" value="com.mtuci.parking.exception.UsernameNotFoundExceptionTest" />
+      <option name="METHOD_NAME" value="usernameNotFoundExceptionTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -198,20 +204,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.AccountServiceUnitTest.getAccountInfo" />
-      <item itemvalue="JUnit.AccountServiceUnitTest" />
-      <item itemvalue="JUnit.ReservationServiceUnitTest.deleteById_whenNotOwner_getReservationNotFoundException" />
-      <item itemvalue="JUnit.ReservationServiceUnitTest.deleteById_whenNotOwner_getNoException" />
-      <item itemvalue="JUnit.ParkingApplicationTests" />
       <item itemvalue="Spring Boot.ParkingApplication (1)" />
+      <item itemvalue="JUnit.ParkingPlaceSpecsUnitTest.conditions_test" />
+      <item itemvalue="JUnit.ParkingPlaceMapperUnitTest.convertParkingPlaceToDto_test" />
+      <item itemvalue="JUnit.UsernameNotFoundExceptionTest.usernameNotFoundExceptionTest" />
+      <item itemvalue="JUnit.ReservationMapperUnitTest.convertReservationToDto_test" />
+      <item itemvalue="JUnit.ReservationMapperUnitTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ParkingApplicationTests" />
-        <item itemvalue="JUnit.AccountServiceUnitTest" />
-        <item itemvalue="JUnit.AccountServiceUnitTest.getAccountInfo" />
-        <item itemvalue="JUnit.ReservationServiceUnitTest.deleteById_whenNotOwner_getNoException" />
-        <item itemvalue="JUnit.ReservationServiceUnitTest.deleteById_whenNotOwner_getReservationNotFoundException" />
+        <item itemvalue="JUnit.ReservationMapperUnitTest" />
+        <item itemvalue="JUnit.ReservationMapperUnitTest.convertReservationToDto_test" />
+        <item itemvalue="JUnit.UsernameNotFoundExceptionTest.usernameNotFoundExceptionTest" />
+        <item itemvalue="JUnit.ParkingPlaceMapperUnitTest.convertParkingPlaceToDto_test" />
+        <item itemvalue="JUnit.ParkingPlaceSpecsUnitTest.conditions_test" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +242,9 @@
       <workItem from="1604090273776" duration="36000" />
       <workItem from="1604137300879" duration="1837000" />
       <workItem from="1604479575346" duration="4490000" />
-      <workItem from="1604489120712" duration="323000" />
+      <workItem from="1604489120712" duration="6541000" />
+      <workItem from="1604561290810" duration="28748000" />
+      <workItem from="1604642193858" duration="11048000" />
     </task>
     <servers />
   </component>
@@ -264,14 +272,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="828" y="207" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604486586046" />
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1603723592667">
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1604656093157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603723592667" />
-    <state x="743" y="389" width="434" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1603796158902">
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604656093157" />
+    <state x="743" y="389" width="452" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1604597731080">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="743" y="389" width="434" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1603796158902" />
+    <state x="743" y="389" width="452" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1604597731080" />
     <state x="557" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603895916107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -284,38 +292,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="838" y="418" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603960249782" />
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1603901127510">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1604657675115">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603901127510" />
-    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1603901127510">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604657675115" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1604657675115">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603901127510" />
-    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1603901127510">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604657675115" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1604657675115">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603901127510" />
-    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1603901127510">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604657675115" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1604657675115">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603901127510" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1603814895704">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604657675115" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1604604087275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603814895704" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1603814895704">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604604087275" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1604604087275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603814895704" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1603814895703">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604604087275" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1604604087275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603814895703" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1603814895704">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604604087275" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1604604087275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603814895704" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604604087275" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1603883650530">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -324,6 +332,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603960038997" />
+    <state x="776" y="298" key="chooseDestDirectoryDialog" timestamp="1604597775388">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="776" y="298" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604597775388" />
     <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1603967117440">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -336,5 +348,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1603978793406" />
+    <state x="666" y="267" key="refactoring.ChangeSignatureDialog" timestamp="1604564204251">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="267" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604564204251" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604647926248">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604647926248" />
   </component>
 </project>

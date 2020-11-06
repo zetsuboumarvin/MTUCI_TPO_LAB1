@@ -75,12 +75,12 @@ public class ParkingPlaceServiceUnitTest {
 
     @Test
     public void save_getNoException() {
-        service.save(new ParkingPlace());
+        service.save(new ParkingPlaceDto(null, "1", "1", 1, true, null));
     }
 
     @Test
     public void change_getNoException() {
-        service.change(Mockito.anyLong(), new ParkingPlace());
+        service.change(Mockito.anyLong(), new ParkingPlaceDto(null, "1", "1", 1, true, null));
     }
 
     @Test

@@ -36,13 +36,19 @@ public class ParkingPlaceServiceImpl implements ParkingPlaceService {
     }
 
     @Transactional
-    public void save(ParkingPlace place) {
-        place.setId(null);
-        parkingPlaceRepository.save(place);
+    public void save(ParkingPlaceDto place) {
+        ParkingPlace pplace = ParkingPlace.builder()
+                .id(null)
+                .address(place.getAddress())
+                .floor(place.getFloor())
+                .zone(place.getZone())
+                .forDisabled(place.isForDisabled())
+                .build();
+        parkingPlaceRepository.save(pplace);
     }
 
     @Transactional
-    public void change(Long id, ParkingPlace place) {
+    public void change(Long id, ParkingPlaceDto place) {
         ParkingPlace sourcePlace = parkingPlaceRepository.findById(id)
                 .orElseThrow(() -> new ParkingPlaceNotFoundException("Parking place: " + id));
         if (place.getAddress() != null)

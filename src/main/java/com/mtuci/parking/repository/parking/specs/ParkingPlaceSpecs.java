@@ -2,18 +2,19 @@ package com.mtuci.parking.repository.parking.specs;
 
 import com.mtuci.parking.model.entity.parking.ParkingPlace;
 import com.mtuci.parking.model.dto.parking.ParkingPlaceSearchParams;
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
 import org.springframework.data.jpa.domain.Specification;
 
 import javax.persistence.criteria.Predicate;
 import java.util.ArrayList;
 import java.util.List;
 
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class ParkingPlaceSpecs {
 
     public static Specification<ParkingPlace> createSpecification(ParkingPlaceSearchParams params) {
-        return (Specification<ParkingPlace>) (root, query, builder) -> {
-            System.out.println("ENTER LAMBDA SPECS");
-            System.out.println(params.toString());
+        return (root, query, builder) -> {
             List<Predicate> list = new ArrayList<>();
             if (params.getId() != null) {
                 list.add(builder.equal(root.get("id"), params.getId()));

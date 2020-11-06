@@ -17,7 +17,7 @@ import java.net.UnknownHostException;
 @CrossOrigin(origins = "*")
 public class AppController {
 
-    @GetMapping()
+    @GetMapping
     public ResponseEntity<String> getHostname() throws UnknownHostException {
         return new ResponseEntity<>(InetAddress.getLocalHost().getHostName(), HttpStatus.OK);
     }

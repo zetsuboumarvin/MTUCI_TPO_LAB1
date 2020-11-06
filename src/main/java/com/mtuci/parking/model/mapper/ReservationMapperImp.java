@@ -15,7 +15,7 @@ public class ReservationMapperImp implements ReservationMapper {
     private final AccountService accountService;
 
     public ReservationDto convertReservationToDto(Reservation reserv) {
-        if (reserv != null) {
+        if (reserv != null && reserv.getUserId() != null) {
             return new ReservationDto(reserv.getId(), reserv.getParkingPlace(),
                     reserv.getUserId(), reserv.getStartOfReservation(),
                     reserv.getUserId().equals(accountService.getAccountId()));

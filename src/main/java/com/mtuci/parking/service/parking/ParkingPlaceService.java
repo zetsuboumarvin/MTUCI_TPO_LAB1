@@ -2,7 +2,6 @@ package com.mtuci.parking.service.parking;
 
 import com.mtuci.parking.model.dto.parking.ParkingPlaceDto;
 import com.mtuci.parking.model.dto.parking.ParkingPlaceSearchParams;
-import com.mtuci.parking.model.entity.parking.ParkingPlace;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
@@ -12,9 +11,9 @@ public interface ParkingPlaceService {
 
     ParkingPlaceDto findById(Long id);
 
-    void save(ParkingPlace place);
+    void save(ParkingPlaceDto place);
 
-    void change(Long id, ParkingPlace place);
+    void change(Long id, ParkingPlaceDto place);
 
     void deleteById(Long id);
 
