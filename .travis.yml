@@ -12,8 +12,7 @@ before_install:
 addons:
   sonarcloud:
     organization: "zetsuboumarvin-parking"
-    token:
-      secure: $SONAR_TOKEN
+    token: $SONAR_TOKEN
 
 env:
   global:
