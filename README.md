@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/zetsuboumarvin/MTUCI_TRPO_LAB1.svg?branch=master)](https://travis-ci.org/zetsuboumarvin/MTUCI_TRPO_LAB1)
 # Технологии разработки ПО
 ## Лабораторная работа №1: создание микросервиса на Spring Boot с базой данных
 ### Мареев Никита, группа 3MAC2001
@@ -49,5 +50,5 @@ curl -L -X POST 'localhost:8080/parking-places/search?size=5&page=0' \
 ## Лабораторная работа №3: CI/CD и деплой приложения в Heroku
 #### Цель лабораторной работы - настройка CI на Travis и автоматический деплой микросервиса в Heroku.
 Приложение в [Heroku](https://mtuci.herokuapp.com/).  
-Статус ![](https://travis-ci.org/zetsuboumarvin/MTUCI_TRPO_LAB1.svg?branch=master)  
+[![Build Status](https://travis-ci.org/zetsuboumarvin/MTUCI_TRPO_LAB1.svg?branch=master)](https://travis-ci.org/zetsuboumarvin/MTUCI_TRPO_LAB1)    
 [SonarCloud](https://sonarcloud.io/organizations/zetsuboumarvin-parking/projects)
